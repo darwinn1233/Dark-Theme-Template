@@ -1,6 +1,6 @@
 <!-- Hello my name is HASSAN and this is my first project with HTML & CSS,
     and something else the animation I put in a comment because in the media
-    screens appears scroll on bottom and thanks By: くん ダーウィン 😁💛
+    screens appears scroll on bottom and thanks 😁💛
 -->
 <!DOCTYPE html>
 <html lang="en">
@@ -22,13 +22,19 @@
         <!-- Start Header -->
         <div class="header">
             <div class="container">
-                <img src="/image/logo.svg" class="logo"> <!-- data-aos="fade-left" --> 
+                <img src="/image/logo.svg" class="logo" data-aos="fade-right">  
                 <ul class="links">
-                    <li><a href="#feature">Features</a></li> <!-- data-aos="zoom-in" -->
-                    <li><a href="#lower-content">Team</a></li> <!-- data-aos="zoom-in" -->
-                    <li><a href="#contact">Sign In</a></li> <!-- data-aos="zoom-in" -->
+                    <li data-aos="zoom-in">
+                        <a href="#feature">Features</a>
+                    </li>
+                    <li data-aos="zoom-in">
+                        <a href="#lower-content">Team</a>
+                    </li>
+                    <li data-aos="zoom-in">
+                        <a href="#contact">Sign In</a>
+                    </li>
                 </ul> 
-                <i class="fas fa-bars toggle-menu"></i> <!-- data-aos="zoom-in" -->
+                <i class="fas fa-bars toggle-menu" data-aos="zoom-in"></i>
                 <i class="far fa-window-close close-menu" style="display: none;"></i>
             </div> <!-- End Of Container -->
         </div> <!-- End Of Header-->
@@ -37,15 +43,15 @@
         <!-- Start Landing Section -->
         <div class="landing">
             <div class="container">
-                <img src="/image/first-bg.png" class="first-image"> <!-- data-aos="zoom-in" -->
-                <h2> <!-- data-aos="fade-right" -->
+                <img src="/image/first-bg.png" class="first-image" data-aos="zoom-in"> 
+                <h2 data-aos="fade-down">
                     All your files in one secure location,<br>
                     accessible anywhere.</h2>
-                <p> <!-- "data-aos="fade-left" -->
+                <p data-aos="fade-right"> 
                     Fylo stores all your most important files in one secure location.
                     access them wherever you need, share and collaborate with
                     friends family, and co-workers.</p>
-                <button> <!-- data-aos="fade-up" -->
+                <button data-aos="fade-up">
                     <a href="#">Get Started</a>
                 </button>
             </div> <!-- End Of Container-->
@@ -55,28 +61,28 @@
         <!-- Start Feature -->
         <div class="feature" id="feature">
             <div class="container">
-                <div class="col col-1"> <!-- data-aos="fade-right" -->
+                <div class="col col-1" data-aos="fade-up" data-aos-delay="200">
                     <img src="/image/icon-access-anywhere.svg" alt="">
                     <h4>Access your files, anywhere</h4>
                     <p>Lorem ipsum dolor sit amet consectetur<br>
                         adipisicing elit. Facere quod consequatur<br> 
                         qui totam animi, suscipit</p>
                 </div> <!-- End Of First Col -->
-                <div class="col col-2"> <!-- "data-aos="fade-left" -->
+                <div class="col col-2" data-aos="fade-up" data-aos-delay="400">
                     <img src="/image/icon-security.svg" alt="">
                     <h4>Access your files, anywhere</h4>
                     <p>Lorem ipsum dolor sit amet consectetur<br>
                         adipisicing elit. Facere quod consequatur<br> 
                         qui totam animi, suscipit</p>
                 </div> <!-- End Of Second Col -->
-                <div class="col col-3"> <!-- data-aos="fade-right" -->
+                <div class="col col-3" data-aos="fade-up" data-aos-delay="600"> 
                     <img src="/image/icon-collaboration.svg" alt="">
                     <h4>Access your files, anywhere</h4>
                     <p>Lorem ipsum dolor sit amet consectetur<br>
                         adipisicing elit. Facere quod consequatur<br> 
                         qui totam animi, suscipit</p>
                 </div> <!-- End Of Third Col -->
-                <div class="col col-4"> <!-- "data-aos="fade-left" -->
+                <div class="col col-4" data-aos="fade-up" data-aos-delay="800"> 
                     <img src="/image/icon-any-file.svg" alt="">
                     <h4>Access your files, anywhere</h4>
                     <p>Lorem ipsum dolor sit amet consectetur<br>
@@ -90,18 +96,21 @@
         <!-- Start Portfolio -->
         <div class="portfolio" >
             <div class="container" >
-                <img src="/image/second-bg.png"> <!-- data-aos="zoom-in" -->
+                <img src="/image/second-bg.png" data-aos="zoom-in"> 
                 <div class="content">
-                    <h3>Stay productive,<br>wherever you are</h3> <!-- data-aos="fade-down" -->
-                    <p>Never let location be an issue when accessing your files. Fylo has you
+                    <h3 data-aos="fade-down">
+                        Stay productive,<br>wherever you are
+                    </h3> 
+                    <p data-aos="fade-up">
+                        Never let location be an issue when accessing your files. Fylo has you
                         covered for all of your file storage needs.
-                    </p> <!-- data-aos="fade-left" -->
-                    <p>securely share files and folders with friends, family and colleagues for live
+                    </p>
+                    <p data-aos="fade-up">securely share files and folders with friends, family and colleagues for live
                         collaboration. No email atachments required
-                    </p> <!-- data-aos="fade-left" -->
-                    <a href="#">See how Fylo works 
-                        <img src="/image/icon-arrow.svg" >
-                    </a> <!-- data-aos="zoom-in" -->
+                    </p>
+                    <a href="#" data-aos="zoom-in">See how Fylo works 
+                        <img src="/image/icon-arrow.svg">
+                    </a>
                 </div> <!-- End Of Content -->
             </div> <!-- End Of Container -->
         </div> <!-- End Of Portfolio -->
@@ -110,7 +119,7 @@
         <!-- Start Lower Content -->
         <div class="lower-content" id="lower-content">
             <div class="container">
-                 <div  class="row row-1 "> <!-- data-aos="fade-right" -->
+                 <div  class="row row-1 " data-aos="fade-up" data-aos-delay="200">
                     <h5>Fylo has improved our team productivity by
                         an order of magnitude. Since making the 
                         switch our team has become a well-olled
@@ -121,7 +130,7 @@
                         <p>founder & CED, Huddle</p>
                     </div> <!-- End Of Lower-text-->
                 </div> <!-- End Of First Row-->
-                <div class="row row-2"> <!-- data-aos="fade-up" -->
+                <div class="row row-2" data-aos="fade-up" data-aos-delay="400">
                     <h5>Fylo has improved our team productivity by
                         an order of magnitude. Since making the 
                         switch our team has become a well-olled
@@ -132,7 +141,7 @@
                         <p>founder & CED, Huddle</p>
                     </div> <!-- End Of Lower-text-->
                 </div> <!-- End Of Second Row-->
-                <div  class="row row-3"> <!-- data-aos="fade-left" -->
+                <div  class="row row-3" data-aos="fade-up" data-aos-delay="600"> 
                     <h5>Fylo has improved our team productivity by
                         an order of magnitude. Since making the 
                         switch our team has become a well-olled
@@ -149,7 +158,7 @@
 
         <!-- Start Contact -->
         <div class="contact" id="contact">
-            <div class="container"> <!-- data-aos="zoom-in" -->
+            <div class="container" data-aos="zoom-in"> 
                 <h2>Get early access today</h2>
                 <p>
                     It only takes a minute to sign up and our free starter tier is extremely generous. If you have any
